@@ -41,12 +41,9 @@ class ComplexTests(TranspileTestCase):
 
 
 class UnaryComplexOperationTests(UnaryOperationTestCase, TranspileTestCase):
+
     data_type = 'complex'
-
-    not_implemented = [
-        'test_unary_not'
-    ]
-
+       
 
 class BinaryComplexOperationTests(BinaryOperationTestCase, TranspileTestCase):
     data_type = 'complex'
