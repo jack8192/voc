@@ -254,7 +254,6 @@ public class Complex extends org.python.types.Object {
     public org.python.types.Bool __bool__() {
         // A complex number is "truthy" if either its real component or imaginary component are > 0
         return new org.python.types.Bool((this.real.value != 0.0) || (this.imag.value != 0.0));
-    
     }
 
     public boolean __setattr_null(java.lang.String name, org.python.Object value) {
