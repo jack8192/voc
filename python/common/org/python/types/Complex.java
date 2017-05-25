@@ -19,7 +19,6 @@ public class Complex extends org.python.types.Object {
     }
 
     public org.python.Object byValue() {
-        /*throw new org.python.exceptions.NotImplementedError("complex.byValue() has not been implemented."); */
         throw new org.python.exceptions.AttributeError("type object 'complex' has no attribute 'byValue'");
     }
 
